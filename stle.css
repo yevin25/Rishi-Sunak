@@ -1,59 +1,75 @@
-<html>
-
-<head>
-    <title> All About Rishi</title>
-    <link href="stle.css" rel="stylesheet">
-</head>
-
-<body>
-  
-    <section id="welcome">
-        <div class="parallax-inner">
-            <img class="profile" src="RS.jpg">
-            <h1> I Am
-                <br>
-                <span id="name">
-                    Rishi Sunak
-                </span>
-            </h1>
-            <h2>
-                I am the new Prime Minister of UK
-            </h2>
-        </div>
-    </section>
-
-    <section id="bio">
-        <h1> Hi!</h1>
-        <div class="line">
-
-        </div>
-        <p> Rishi Sunak (/ˈrɪʃi ˈsuːnæk/ (listen);[1] born 12 May 1980) is a British politician who has served as Prime Minister of the United Kingdom since 25 October 2022 and Leader of the Conservative Party since 24 October 2022. Sunak served as Chancellor of the Exchequer from 2020 to 2022 and Chief Secretary to the Treasury from 2019 to 2020,[2] and he has been Member of Parliament (MP) for Richmond (Yorks) since 2015.
-
-            Sunak was born in Southampton to parents of Indian descent who migrated to Britain from East Africa in the 1960s. He was educated at Winchester College, studied philosophy, politics and economics (PPE) at Lincoln College, Oxford, and earned an MBA from Stanford University as a Fulbright Scholar. While at Stanford, he met his future wife Akshata Murty, the daughter of Indian billionaire N. R. Narayana Murthy of Infosys. After graduating, Sunak worked for Goldman Sachs and later as a partner at the hedge fund firms The Children's Investment Fund Management and Theleme Partners.
-            
-            Sunak was elected to the House of Commons for Richmond in North Yorkshire at the 2015 general election, succeeding William Hague. Sunak supported Brexit in the 2016 referendum on EU membership. He was appointed to Theresa May's second government as Parliamentary Under-Secretary of State for Local Government in the 2018 reshuffle. He voted three times in favour of May's Brexit withdrawal agreement. After May resigned, Sunak supported Boris Johnson's campaign to become Conservative leader. After Johnson became Prime Minister, Sunak was appointed Chief Secretary to the Treasury. Sunak replaced Sajid Javid as Chancellor of the Exchequer after Javid's resignation in the February 2020 cabinet reshuffle. As Chancellor, Sunak was prominent in the government's financial response to the COVID-19 pandemic and its economic impact, including the Coronavirus Job Retention and Eat Out to Help Out schemes. He resigned as chancellor in July 2022, followed by Johnson's resignation amid a government crisis.
-            
-            Sunak stood in the Conservative party leadership election to replace Johnson, and lost the members' vote to Liz Truss. After Truss's resignation amid a government crisis, Sunak was elected unopposed as Leader of the Conservative Party on 24 October 2022. He was appointed Prime Minister by King Charles III, the first to be appointed during his reign, a day later, becoming the first British Asian and Hindu to hold that position. </p>
-    </section>
-    <section>
-        <h3> BTN Notes</h3>
-        <br>
-        <div>
-            <h5>New UK Prime Minister</h5>
-            <p class="p1">There’s been a lot going on in the world of politics over in
-                 the UK. This week Rishi Sunak became the countries 57th leader
-                  when the former Prime Minister, Liz Truss, resigned after just
-                   6 weeks. We find out more about Rishi Sunak, and how he found
-                    himself in the top job.</p>
-                    <h5>Sport Sponsership</h5>
-                    <p class="p1">Netball Australia has been making headlines for its sponsorship saga with Gina Rinehart’s mining company, Hancock Prospecting. Ms Rinehart dropped a multi-million-dollar deal with Netball Australia after some Diamonds players chose not to wear a jersey featuring the Hancock logo. It’s raised the question around whether athletes should have an opinion on the companies that are displayed on their jerseys.</p>
-                    <h5>Kokoda 80th Aniversary</h5>
-                    <p class="p1">November 3rd marks 80 years since the Kokoda trail campaign. It’s a big part of Australia military history when Aussie soldiers recaptured Kokoda after a long and difficult campaign to stop a Japanese invasion of Papua New Guinea during the Second World War. We look back at the campaign and why it was so important.</p>
-                    <h5>Farm Kids</h5>
-                    <p class="p1">We meet the 7 students of Hermidale Public School in rural New South Wales who have been gifted a plot of land where they’ve been growing and harvesting wheat. Like many rural towns, Hermidale has been hit pretty hard the past couple of years, so the students wanted to get in and lend a hand, while also learning the ropes of being a farmer.</p>
-        </div>
-    </section>
-
-</body>
-
-</html>
+body{
+    margin: 0;
+    padding-top:  550px;
+    text-align: center;
+    }
+     .profile{
+    border-radius: 50%;
+    
+     }
+     #welcome{
+        position: absolute;
+        bottom:0;
+        background:linear-gradient(rgb(12, 191, 111), rgb(7, 85, 122)) ;
+        display: table; 
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    
+     h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 300;
+     }
+    
+     #name{
+        font-size: 50px;
+        font-family: 'Cinzel Decorative',cursive;
+     }
+    
+     h2{
+        font-size: 30px;
+        font-family: monospace;
+        font-weight: 300;
+     }
+    
+     #bio{
+        font-family: 'Cinzel Decorative',cursive;
+        padding: 130px;
+    
+     }
+    
+    
+     .line{
+    
+        height: 6px;
+        background-color: black;
+        width: 70px;
+        margin: 8px  auto;
+    
+     }
+    
+    
+     .parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+    
+     }
+     h5{
+      font-family: monospace;
+      font-style: bold;
+      color: black;
+      background-color: aqua;
+      font-size: large;
+     }
+    
+ #p1{
+   font-family: sans-serif;
+   font-style: italic;
+   color: rgb(53, 14, 193);
+   background-color: rgb(228, 11, 11);
+   font-size: small;
+ }
+    
